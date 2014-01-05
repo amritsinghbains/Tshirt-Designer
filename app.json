@@ -1,0 +1,61 @@
+{
+   "name": "MyApp",
+   "indexHtmlPath": "index.html",
+   "url": null,
+   "js": [
+      {
+         "path": "touch/sencha-touch.js",
+         "x-bootstrap": true
+      },
+      {
+         "path": "bootstrap.js",
+         "x-bootstrap": true
+      },
+      {
+         "path": "app.js",
+         "bundle": true,
+         "update": "delta"
+      }
+   ],
+   "css": [
+      {
+         "update": "delta",
+         "platform": [
+            "phone",
+            "tablet",
+            "desktop"
+         ],
+         "theme": "Cupertino",
+         "path": "resources/css/cupertino.css",
+         "_architect_active_theme": true
+      }
+   ],
+   "appCache": {
+      "cache": [
+         "index.html"
+      ],
+      "network": [
+         "*"
+      ],
+      "fallback": []
+   },
+   "resources": [
+      "resources/images",
+      "resources/icons",
+      "resources/startup"
+   ],
+   "ignore": [
+      ".svn$"
+   ],
+   "archivePath": "archive",
+   "requires": [],
+   "id": "6c9b5039-a2fc-47db-975d-0a95fc3247cd",
+   "_architect": {
+      "_comment": "Please don't edit. This is Architect data.",
+      "name": "MyApp",
+      "css": [],
+      "js": [],
+      "resources": [],
+      "requires": []
+   }
+}
